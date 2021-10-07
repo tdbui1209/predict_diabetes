@@ -125,10 +125,10 @@ np_values = np.array(values).reshape(1, -1)
 
 submit = st.button('Xong')
 
-from fpdf import FPDF
-import barcode
-from barcode import EAN13
-from barcode.writer import ImageWriter
+# from fpdf import FPDF
+# import barcode
+# from barcode import EAN13
+# from barcode.writer import ImageWriter
 
 if submit:
     y_pred = model.predict_proba(np_values)
