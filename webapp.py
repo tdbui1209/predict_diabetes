@@ -12,8 +12,8 @@ CURRENT_YEAR = datetime.datetime.today().year
 
 st.title('Khám sàng lọc bệnh tiểu đường')
 
-full_name = st.text_input('Nhập họ và tên đầy đủ:')
-id_number = st.text_input('Nhập số CMND / CCCD / Hộ chiếu:')
+# full_name = st.text_input('Nhập họ và tên đầy đủ:')
+# id_number = st.text_input('Nhập số CMND / CCCD / Hộ chiếu:')
 
 year_born = st.number_input(
     'Nhập năm sinh:',
